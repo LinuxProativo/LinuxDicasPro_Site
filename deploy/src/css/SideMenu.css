@@ -1,0 +1,67 @@
+.menu-toggle-wrapper {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu-toggle {
+    background-color: #191e26;
+    border: 2px solid #7AE2CF;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    touch-action: manipulation;
+}
+
+.menu-toggle:hover {
+    background-color: #293a41;
+    color: #89E3E4;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -260px;
+    width: 250px;
+    height: 12.4rem;
+    background-color: #202731;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.7);
+    transition: right 0.3s ease;
+    z-index: 1;
+    padding-top: 4.5rem;
+    overflow-y: auto;
+    border-bottom-left-radius: 10px;
+}
+
+.side-menu.open {
+    right: 0;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #d0f7ee;
+    border-bottom: 1px solid #293a41;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.side-menu li:hover {
+    background-color: #191e26;
+    color: #89E3E4;
+}
+
+.side-menu li.active {
+    background-color: #293a41;
+    color: #7AE2CF;
+}

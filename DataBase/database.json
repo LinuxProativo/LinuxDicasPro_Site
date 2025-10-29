@@ -1,0 +1,41 @@
+{
+    "comunicados": [
+        {
+            "titulo": "Site do LinuxDicasPro!",
+            "descricao": "É com grande felicidade que eu anuncio o lançamento do novo site do LinuxDicasPro! 🎉\n\nAgora você poderá acessar todos os tutoriais, dicas, guias e novidades do mundo Linux em um único lugar, com um design moderno, navegação intuitiva e conteúdo sempre atualizado."
+        }
+    ],
+    "links": [],
+    "produtos": {
+        "hotmart": [],
+        "shopee": [],
+        "mercado_livre": [
+            {
+                "nome": "SSD Kingston NV3 500GB",
+                "descricao": "M2 2280 NVME PCIe 4.0 Gen 4x4 Ultra Rápido – 5000MB/s / 3.000MB/s",
+                "link": "https://mercadolivre.com/sec/14zkmEz",
+                "link_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_697551-MLA83672832528_042025-F.webp"
+            },
+            {
+                "nome": "SSD Kingston NV3 1TB",
+                "descricao": "M.2 2280 NVME Snv3s/1000g PCIe Gen 4.0 Leitura 6000 Mb/s Gravação 4000 Mb/s",
+                "link": "https://mercadolivre.com/sec/2bKjT4H",
+                "link_imagem": "https://http2.mlstatic.com/D_NQ_NP_930129-MLU78451929490_082024-O.webp"
+            }
+        ],
+        "amazon": [
+            {
+                "nome": "Microfone FIFINE AM-8",
+                "descricao": "Microfone Dinâmico USB/XLR para Gravação de Podcast/YouTube",
+                "link": "https://amzn.to/4g6x70X",
+                "link_imagem": "https://m.media-amazon.com/images/I/71-Q2FWa-ZL._AC_SL1500_.jpg"
+            },
+            {
+                "nome": "Impressora Epson EcoTank L3250",
+                "descricao": "Multifuncional, Tanque de Tinta Colorida, Wi-Fi Direct, USB, Melhor Custo Benefício",
+                "link": "https://amzn.to/41wBDQf",
+                "link_imagem": "https://images.tcdn.com.br/img/img_prod/1236842/imp_epson_multifuncional_ecotank_l3250_173_2_d39de773cb2d4fd45afb7f82b10bf5d2.jpg"
+            }
+        ]
+    }
+}

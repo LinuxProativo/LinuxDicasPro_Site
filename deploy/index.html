@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+
+        <style>
+            ::-webkit-scrollbar {
+                display: none;
+                width: 0 !important;
+                height: 0 !important;
+            }
+
+            @font-face {
+                font-family: Nicky Sans;
+                src: url('/src/assets/NickySansAlt-Medium.ttf') format('truetype'),
+                url('/src/assets/NickySansAlt-Bold.ttf') format('truetype'),
+                url('/src/assets/NickySansAlt-Regular.ttf') format('truetype'),
+                url('/src/assets/NickySansAlt-SemiBold.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+
+            html, body {
+                margin: 0;
+                padding: 0;
+                font-family: Nicky Sans, serif;
+                background-color: #202731;
+                color: #F6F7F9;
+                overflow: hidden;
+                letter-spacing: 1px;
+                scrollbar-width: none;
+            }
+
+            .app-conteiner-title {
+                position: absolute;
+                width: 100%;
+                margin-top: -20px;
+                border-bottom: 1px solid #293a41;
+                padding: 1rem 0 1rem 0;
+                background-color: #191e26;
+                text-align: center;
+                z-index: 0;
+            }
+
+            @media (max-width: 599px) { /* 600px */
+                .app-conteiner-title {
+                    text-align: left;
+                    width: calc(100% - 15px);
+                    padding: 1rem 0 0.9rem 15px;
+                }
+
+                .app-conteiner-title h1 {
+                    margin-bottom: 0;
+                }
+            }
+        </style>
+
+<!--        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="Linux, tutoriais, dicas, comandos, terminal, distros, open source" />
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="LinuxDicasPro Oficial: tutoriais, dicas e novidades sobre Linux. Aprenda de forma simples e prática a usar o Linux no dia a dia." />
+        <link rel="icon" type="image/png" href="/src/assets/lp.png" />
+        <title>LinuxDicasPro Oficial</title>
+    </head>
+    <body>
+        <div class="app-conteiner-title">
+            <h1>LinuxDicasPro</h1>
+        </div>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>

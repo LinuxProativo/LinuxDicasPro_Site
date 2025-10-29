@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd ./DataBase
+python3 -B main.py
+cd -
+cp -a DataBase/database.json deploy/src/assets

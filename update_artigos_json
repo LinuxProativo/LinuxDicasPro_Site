@@ -1,0 +1,51 @@
+#!/bin/bash
+
+CWD="$PWD"
+
+DIR="assets/artigos"
+OUTPUT="$CWD/deploy/src/assets/artigos.json"
+
+cd deploy/src
+
+echo "[" > "$OUTPUT"
+
+first=true
+
+find "$DIR" -type f -name "*.md" | while read -r file; do
+    title=$(grep -m 1 '^#' "$file" | sed 's/^# *//; s/"/\\"/g')
+
+    dir=$(dirname "$file")
+    banner_path="$dir/banner.webp"
+    if [ ! -f "$banner_path" ]; then
+        banner_path=null
+    else
+        banner_path="$banner_path"
+    fi
+
+    if [ "$first" = true ]; then
+        first=false
+    else
+        echo "," >> "$OUTPUT"
+    fi
+
+    categories="$(sed -n 's/^\[\(.*\)\]::.*/\1/p' $file)"
+    date="$(date -d "$(stat -c %y $file)" +"%B %d, %Y")"
+
+    test ! -f "$dir/PUBLISH_DATE" && echo "$date" >  "$dir/PUBLISH_DATE"
+    publish="$(< "$dir/PUBLISH_DATE")"
+
+    echo -e \
+"    {
+        \"categories\": \"$categories\",
+        \"title\": \"$title\",
+        \"link\": \"$file\",
+        \"banner\":\"$banner_path\",
+        \"date\": \"$publish\"
+    }" >> "$OUTPUT"
+done
+
+# Fecha o JSON
+echo "]" >> "$OUTPUT"
+
+echo "Arquivo $OUTPUT gerado com sucesso!"
+

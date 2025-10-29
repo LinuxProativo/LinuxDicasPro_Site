@@ -1,0 +1,108 @@
+.app-container {
+    padding-top: 20px;
+    caret-color: transparent;
+}
+
+.page {
+    width: 100vw;
+    background-color: #202731;
+    height: calc(100vh - 95px);
+    overflow-y: auto;
+}
+
+.page h2 {
+    text-align: center;
+}
+
+.top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -15px auto;
+    padding: 25px 15px 8rem;
+    max-width: 1750px;
+}
+
+.top-column {
+    flex-direction: column;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icone-voltar {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.tab-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    margin: -5px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+}
+
+.tabs-list {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-item {
+    text-align: center;
+    margin-top: 2.45rem;
+    padding: 10px 15px 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #d0f7ee;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    caret-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.tab-item:hover {
+    background-color: #28303D;
+    color: #89E3E4;
+    border-bottom: 1px solid #293a41;
+}
+
+.tab-item.active {
+    color: #7AE2CF;
+    border-bottom: 1px solid #7AE2CF;
+    font-weight: 600;
+}
+
+.tab-panel {
+    animation: fadeIn 0.3s ease-in;
+    caret-color: transparent;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 599px) { /* 600px */
+    .page {
+        margin-top: 3.1rem;
+        height: calc(100vh - 65px);
+    }
+}

@@ -1,0 +1,132 @@
+/* GENERICO */
+.generic-card {
+    background-color: #191e26;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    margin: 12px;
+}
+
+.generic-card:hover {
+    transform: translateY(-5px);
+}
+
+.generic-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.generic-card a {
+    text-decoration: none;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+/* ARTIGO */
+.generic-card-artigo {
+    max-width: 420px;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.generic-card-artigo span {
+    border-radius: 10px;
+    background-color: #293a41;
+    font-size: 15px;
+    color: #7AE2CF;
+    padding: 10px 15px 7px;
+    display: inline-block;
+}
+
+.generic-card-artigo h3 {
+    margin: 12px 0;
+    font-size: 1.5rem;
+}
+
+.generic-card-artigo p {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #89E3E4;
+    margin-bottom: 0;
+}
+
+/* PROJETOS */
+.generic-card-projeto {
+    text-align: center;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.generic-card-projeto img {
+    aspect-ratio: 2/1;
+    max-height: 450px;
+}
+
+.generic-card-projeto h2 {
+    margin: 10px;
+    font-size: 1.6rem;
+}
+
+.generic-card-projeto p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* PRODUTOS */
+.generic-card-produto {
+    max-width: 350px;
+    text-align: center;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.generic-card-produto img {
+    aspect-ratio: 1/1;
+}
+
+.generic-card-produto h3 {
+    color: #7AE2CF;
+    margin: 0 0 8px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.generic-card-produto p {
+    color: #d0f7ee;
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 480px) {
+    .generic-card-produto h3,
+    .generic-card-artigo h3 {
+        font-size: 1rem;
+    }
+
+    .generic-card-projeto h2 {
+        font-size: 1.2rem;
+    }
+
+    .generic-card-projeto p {
+        font-size: 0.9rem;
+    }
+
+    .generic-card-produto p {
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,25 @@
+[
+    {
+        "categories": "Rust",
+        "title": "Tratando Erros com Quebra de Linha de Comandos em Rust",
+        "link": "assets/artigos/3_rust_cli_error_handling/rust_cli_error_handling.md",
+        "banner":"assets/artigos/3_rust_cli_error_handling/banner.webp",
+        "date": "outubro 07, 2025"
+    }
+,
+    {
+        "categories": "Java",
+        "title": "Como Corrigir Fontes Feias em Aplicativos Java no Linux",
+        "link": "assets/artigos/1_java_font_fix/java_font_fix.md",
+        "banner":"assets/artigos/1_java_font_fix/banner.webp",
+        "date": "setembro 29, 2025"
+    }
+,
+    {
+        "categories": "Python",
+        "title": "Como Criar uma Janela Tkinter Centralizada em Python",
+        "link": "assets/artigos/2_tkinter_class_centralizar/tkinter_class_centralizar.md",
+        "banner":"assets/artigos/2_tkinter_class_centralizar/banner.webp",
+        "date": "setembro 29, 2025"
+    }
+]
