@@ -8,6 +8,14 @@
     }
 ,
     {
+        "categories": "API",
+        "title": "Como Obter a Chave API do YouTube",
+        "link": "assets/artigos/4_youtube_api_key_guide/youtube_api_key_guide.md",
+        "banner":"assets/artigos/4_youtube_api_key_guide/banner.webp",
+        "date": "janeiro 31, 2026"
+    }
+,
+    {
         "categories": "Java",
         "title": "Como Corrigir Fontes Feias em Aplicativos Java no Linux",
         "link": "assets/artigos/1_java_font_fix/java_font_fix.md",
