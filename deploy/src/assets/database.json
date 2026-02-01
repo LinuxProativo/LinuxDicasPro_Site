@@ -1,14 +1,39 @@
 {
     "comunicados": [
         {
-            "titulo": "Site do LinuxDicasPro!",
-            "descricao": "É com grande felicidade que eu anuncio o lançamento do novo site do LinuxDicasPro! 🎉\n\nAgora você poderá acessar todos os tutoriais, dicas, guias e novidades do mundo Linux em um único lugar, com um design moderno, navegação intuitiva e conteúdo sempre atualizado."
+            "titulo": "Site do LinuxProativo!",
+            "descricao": "É com grande felicidade que eu anuncio o lançamento do novo site do LinuxProativo! 🎉\n\nAgora você poderá acessar todos os tutoriais, dicas, guias e novidades do mundo Linux em um único lugar, com um design moderno, navegação intuitiva e conteúdo sempre atualizado."
         }
     ],
     "links": [],
     "produtos": {
         "hotmart": [],
-        "shopee": [],
+        "shopee": [
+            {
+                "nome": "Vention Cabo USB-C 5A",
+                "descricao": "480Mbps Dados Nylon Trançado Durável Carga Rápida",
+                "link": "https://s.shopee.com.br/2B95LgyXRN",
+                "link_imagem": "https://down-br.img.susercontent.com/file/sg-11134201-821ew-mhbji5fe85jg6f.webp"
+            },
+            {
+                "nome": "Vention Carregador 20W GaN",
+                "descricao": "Carregador rápido PD de 20W - USB-C",
+                "link": "https://s.shopee.com.br/14an3CvQY",
+                "link_imagem": "https://down-br.img.susercontent.com/file/sg-11134201-821ez-mhbnb53l9kaxcf.webp"
+            },
+            {
+                "nome": "Vention Carregador 65W GaN",
+                "descricao": "Carregador Ultra-Rápido PD 65W - 2 Saídas USB-C e 1 Saída USB-A",
+                "link": "https://s.shopee.com.br/5L679toMbs",
+                "link_imagem": "https://down-br.img.susercontent.com/file/sg-11134201-82289-mhvo51m45q88b6.webp"
+            },
+            {
+                "nome": "Vention Carregador 30W GaN",
+                "descricao": "Carregador USB-C/USB-A + Cabo 3A 480Mbps",
+                "link": "https://s.shopee.com.br/AUoDJp6WJP",
+                "link_imagem": "https://down-br.img.susercontent.com/file/cn-11134207-7ras8-mc639fegrsjv3c.webp"
+            }
+        ],
         "mercado_livre": [
             {
                 "nome": "SSD Kingston NV3 500GB",
@@ -18,9 +43,15 @@
             },
             {
                 "nome": "SSD Kingston NV3 1TB",
-                "descricao": "M.2 2280 NVME Snv3s/1000g PCIe Gen 4.0 Leitura 6000 Mb/s Gravação 4000 Mb/s",
+                "descricao": "M2 2280 NVME Snv3s/1000g PCIe Gen 4.0 Leitura 6000 Mb/s Gravação 4000 Mb/s",
                 "link": "https://mercadolivre.com/sec/2bKjT4H",
                 "link_imagem": "https://http2.mlstatic.com/D_NQ_NP_930129-MLU78451929490_082024-O.webp"
+            },
+            {
+                "nome": "Roteador TP-Link Deco X10",
+                "descricao": "Kit Wi-Fi 6 Mesh Dual-Band AX1500 3 unidades - 2.4 GHz: 300 Mbps - 5 GHz: 1201 Mbps",
+                "link": "https://mercadolivre.com/sec/2Z3DKnJ",
+                "link_imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_955035-MLA90750460492_082025-F.webp"
             }
         ],
         "amazon": [
@@ -35,6 +66,18 @@
                 "descricao": "Multifuncional, Tanque de Tinta Colorida, Wi-Fi Direct, USB, Melhor Custo Benefício",
                 "link": "https://amzn.to/41wBDQf",
                 "link_imagem": "https://images.tcdn.com.br/img/img_prod/1236842/imp_epson_multifuncional_ecotank_l3250_173_2_d39de773cb2d4fd45afb7f82b10bf5d2.jpg"
+            },
+            {
+                "nome": "Mouse Sem Fio Logitech M170",
+                "descricao": "Compacto, Conexão USB e Pilha Inclusa - Preto",
+                "link": "https://amzn.to/4t2MX2u",
+                "link_imagem": "https://m.media-amazon.com/images/I/71jnabfMTaL._AC_SL1500_.jpg"
+            },
+            {
+                "nome": "Mouse Sem Fio Logitech M190",
+                "descricao": "Tamanho Padrão, Conexão USB e Pilha Inclusa - Cinza",
+                "link": "https://amzn.to/4rtKmgD",
+                "link_imagem": "https://m.media-amazon.com/images/I/71qTfcXVJcL._AC_SL1500_.jpg"
             }
         ]
     }
